@@ -1,4 +1,19 @@
 .container-fluid {
-	padding-top: 110px;
-	position: relative;
+	margin-top: 110px;
+	padding: 0 !important;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: auto;
+}
+
+.carousel-content {
+	background-color: transparent;
+	color: black;
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 10%;
+ 	transform: translateY(-50%);
+ 	z-index: 20;
 }
