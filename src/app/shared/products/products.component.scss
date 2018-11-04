@@ -1,0 +1,32 @@
+$gold: gold;
+
+.product-image {
+	width: 100%;
+}
+
+.image {
+	width: 100%;
+}
+
+.product-item,
+.product-info {
+	width: 100%
+}
+
+.ratting {
+	color: $gold;
+}
+
+// No entiendo por qué no funciona
+// la clase de bootstrap
+.mb-50 {
+	margin-bottom: 50px;
+}
+
+.pt-120	{
+	padding-top: 120px;
+}
+
+.pb-120 {
+	padding-bottom: 120px;
+}

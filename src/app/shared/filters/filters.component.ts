@@ -12,4 +12,13 @@ export class FiltersComponent implements OnInit {
   ngOnInit() {
   }
 
+  scrollToElement($element): void {
+    console.log($element);
+    $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
+
+  // to activate
+  // <button (click)="scrollToElement(target)"></button>
+  // <div #target>Your target</div>
+
 }

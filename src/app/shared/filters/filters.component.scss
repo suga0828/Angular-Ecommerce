@@ -1,9 +1,50 @@
-.product-filter {
+.pt-120 {
+	padding-top: 120px;
+}
+
+#filters {
     background-color: #fff;
     -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 60px;
     padding: 45px 45px 15px;
     width: 100%;
-    display: block;
+}
+
+.list-inline-item {
+	font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    margin-right: 30px;
+}
+
+.filter-list {
+	color: #8d8d8d;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    padding-bottom: 7px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.filter-list:after {
+	background-color: #b0b0b0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+
+}
+
+.color {
+	font-size: 20px;
+	margin-right: 11px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
 }

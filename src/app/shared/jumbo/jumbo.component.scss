@@ -1,3 +1,5 @@
+$grey: #3f3f3f;
+
 .container-fluid {
 	margin-top: 110px;
 	padding: 0 !important;
@@ -9,11 +11,16 @@
 }
 
 .carousel-content {
-	background-color: transparent;
-	color: black;
  	position: absolute;
  	top: 50%;
  	left: 10%;
  	transform: translateY(-50%);
  	z-index: 20;
+}
+
+.title {
+    color: $grey;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
