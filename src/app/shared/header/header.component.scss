@@ -1,0 +1,10 @@
+nav {
+	height: 110px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-toggle::after {
+    display:none;
+}
