@@ -9,3 +9,29 @@
  */
 
 @import "~bootstrap/scss/bootstrap";
+
+body {
+	// Bootstrap variable
+	background: $body-bg;
+	// Personal variable
+	color: $grey;
+	font-family: $font-family-default;
+	font-size: $font-size-default;
+    line-height: $line-height-defaul;
+}
+
+a,
+a:hover,
+a:active {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-transform: uppercase;
+}

@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
+$grey: #999;
 $grey-active: #3f3f3f;
 
 nav {
@@ -27,4 +28,20 @@ nav {
 
 .nav-item {
 	margin-left: 30px;
+}
+
+.scroll {
+	position: fixed;
+	border: 2px solid $grey;
+	border-radius: 50%;
+    bottom: 28px;
+	right: 30px;
+	color: #999;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+}
+
+.scroll:hover {
+	background-color: $grey-active;
 }

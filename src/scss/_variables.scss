@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+// font-family: 'Lato', sans-serif;
+
+
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -6,4 +10,9 @@ $grid-breakpoints: (
   xl: 1200px
 );
 
-$white: #FFF;
+$grey: #999999;
+$grey-active: #3f3f3f;
+
+$font-family-default: 'Lato', sans-serif;
+$font-size-default: 14px;
+$line-height-defaul: 24px;

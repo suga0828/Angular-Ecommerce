@@ -1,4 +1,4 @@
-<header>
+<header #top>
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
 
@@ -66,3 +66,8 @@
     </div>
   </nav>
 </header>
+<div class="scroll align-middle" (click)="scrollToElement(top)">
+  <span>
+    <fa-icon [icon]="faChevron" size="lg"></fa-icon>
+  </span>
+</div>
