@@ -1,0 +1,26 @@
+Notas sobre el desarrollo:
+	1.- El Header no se mantiene fijo al principio
+	al hacer scroll sino que de una vez comienzan
+	a bajar.
+	2.- Falta agregar el carrito y el engranaje.
+	3.- Por alguna razón se ropió la posición al
+	expandir el collapsed.
+	4.- Falta agregar los estilos de la barra
+	cuando está colapsada y la funcionalidad
+	de expandir los submenus al hacer click.
+	5.- El Slide funciona con las imágenes no con
+	el text. Supongo que agregando una animación
+	se puede solucionar.
+	5.5.- Cambiar el estilo de los botones para
+	navegar en el slide.
+	6.- Falta agregar el estilo de los botones.
+	7.- Falta agregar el two range slide. Creo que
+	se puede usar:
+	https://www.npmjs.com/package/angular-double-slider
+	pero no lo he probado.
+	8.- Falta agregar los efectos de hover en los
+	productos.
+	9.- El servicio tiene el nombre mal y no funciona
+	:(.
+	10.- El scroll no funciona correctamente y el
+	ícono no está centrado.
